@@ -166,7 +166,7 @@ int main()
             goto help;
             break;
         default:
-            cout << endl;
+            cout << "Not in Option..." << endl;
         }
     } while (choice != 4);
 help:
